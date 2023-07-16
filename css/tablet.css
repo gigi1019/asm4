@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 40px;
+    margin: 0px;
+    background-color: #007bff;
+}
+
+.nav>div>li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* selector a inside li */
+li>a {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#left {
+    display: flex;
+    float: left;
+}
+
+#right {
+    display: flex;
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+.banner {
+    display: none;
+}
+
+.banner-tablet {
+    display: block;
+    padding: 0px 40px;
+}
+
+.neighborhood {
+    padding: 0px 40px;
+}
+
+/* 1 column for img */
+.col {
+    width: 50%;
+    padding: 15px;
+    float: left;
+}
+
+/* clear float for contact */
+.contact {
+    clear: both;
+    padding: 0px 40px;
+}
+
+.col-1 {
+    width: 100% !important;
+}

@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    display: inline-block;
+    width: 100%;
+    padding: 0px 40px !important;
+    margin-top: 20px;
+}
+
+.nav>div>li {
+    text-transform: uppercase;
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* selector a inside li */
+li>a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+#left {
+    display: flex;
+    float: left;
+}
+
+#right {
+    display: flex;
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+/* banner css*/
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-tablet {
+    display: none;
+}
+
+.top-left {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+}
+
+h1 {
+    text-align: left;
+}
+
+/* color for neighborhood */
+.neighborhood {
+    background-color: aliceblue;
+    margin-top: -20px;
+    padding: 0px 40px;
+    height: 650px;
+}
+
+/* 3 column for img */
+.col {
+    width: 33%;
+    padding: 15px;
+    float: left;
+}
+
+.col>img {
+    height: 200px;
+}
+
+/* clear float for contact */
+.contact {
+    clear: both;
+    padding: 0px 40px;
+}
